@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("./assets/imgs/pattern.png");
+  background-position: right -50% top;
+}
+
+nav::before {
+  content: "";
+  position: fixed;
+  display: inline-block;
+  height: 20vh;
+  top: 15vh;
+  background-color: #fcfc;
+  width: 1px;
+  left: 7vw;
+}
+
+nav::after {
+  content: "";
+  position: fixed;
+  display: inline-block;
+  height: 21vh;
+  bottom: 15vh;
+  background-color: #fcfcfc;
+  width: 1px;
+  left: 7vw;
+}
+
+.content::after {
+  content: "";
+  position: fixed;
+  display: inline-block;
+  height: 70vh;
+  background-color: #fcfcfc;
+  width: 1px;
+  right: 7vw;
+  top: 15vh;
+}
+
+li:hover,
+.media:hover {
+  filter: drop-shadow(0px 1px 10px #e206f4);
+}
