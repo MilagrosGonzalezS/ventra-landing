@@ -55,41 +55,37 @@ li:hover,
   backdrop-filter: blur(25px);
 }
 
-.home-icon:hover + .home-text{
-display: block;
--webkit-animation: slide-right 0.5s ease-in-out both;
-animation: slide-right 0.5s ease-in-out both;
+.home-icon:hover + .home-text {
+  display: block;
+  -webkit-animation: slide-right 0.5s ease-in-out both;
+  animation: slide-right 0.5s ease-in-out both;
 }
-
-
 
 @-webkit-keyframes slide-right {
   0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
     -webkit-transform: translateX(0.8rem);
-            transform: translateX(0.8rem);
+    transform: translateX(0.8rem);
   }
 }
 @keyframes slide-right {
   0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
     -webkit-transform: translateX(0.8rem);
-            transform: translateX(0.8rem);
+    transform: translateX(0.8rem);
   }
 }
 
-
-.home-text{
+.home-text {
   display: none;
   font-size: 1rem;
   position: absolute;
   left: 50px;
-/* top: 80%; */
-
+  /* top: 80%; */
 }

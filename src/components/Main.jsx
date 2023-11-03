@@ -4,6 +4,12 @@ import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import arrows from "../assets/imgs/recurso-colores.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHouse,
+  faUsers,
+  faPaperPlane,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Main() {
   return (
