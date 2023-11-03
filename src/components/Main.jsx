@@ -4,23 +4,35 @@ import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import arrows from "../assets/imgs/recurso-colores.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHouse,
+  faUsers,
+  faPaperPlane,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Main() {
   return (
     <>
       <nav className="fixed">
-        <ul className="absolute top-[25vh] left-[7vw] z-10 flex flex-col gap-6 py-8 items-center -translate-x-2/4">
-          <li className="text-light list-none tracking-wider font-extralight text-lg">
-            <a href="#home">home</a>
+        <ul className="nav absolute top-[25vh] left-[7vw] z-10 flex flex-col gap-10 py-8 items-center -translate-x-2/4 bg-opacity rounded-2xl p-4 mt-4">
+          <li className="flex flex-col items-center justify-center text-light list-none tracking-wider font-extralight text-2xl">
+            <a href="#home" className="home-icon">
+              <FontAwesomeIcon icon={faHouse} />
+              {/* <p className="">Home</p> */}
+            </a>
           </li>
-          <li className="text-light list-none tracking-wider font-extralight text-lg">
-            <a href="#about">about</a>
+          <li className="flex flex-col items-center justify-center text-light list-none tracking-wider font-extralight text-2xl">
+            <a href="#about">
+              <FontAwesomeIcon icon={faUsers} />
+            </a>
+            {/* <p className="">About</p> */}
           </li>
-          <li className="text-light list-none tracking-wider font-extralight text-lg">
-            <a href="#contact">contacto</a>
-          </li>
-          <li className="text-light list-none tracking-wider font-extralight text-lg">
-            <a href="#">asdasd</a>
+          <li className="flex flex-col items-center justify-center text-light list-none tracking-wider font-extralight text-2xl">
+            <a href="#contact">
+              <FontAwesomeIcon icon={faPaperPlane} />
+            </a>
+            {/* <p className="">Contact</p> */}
           </li>
         </ul>
       </nav>
