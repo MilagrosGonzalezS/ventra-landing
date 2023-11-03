@@ -36,37 +36,13 @@ function Main() {
           </li>
         </ul>
       </nav>
-      <div className="content"></div>
-      <div>
+      <div className="content">
         <img
-          className="fixed w-4 z-15 right-[6.11vw] top-[14vh] -translate-x-2/4"
+          className=" w-4 fixed right-[7vw] translate-x-2/4 z-20 top-8"
           src={arrows}
           alt="flechas de colores"
         />
       </div>
-
-      {/* <div className="fixed top-[15vh] left-[7vw]">
-        <hr className="h-[75svh] w-0 border-l-[1px] ml-7" />
-        <nav className="absolute top-32">
-          <ul className="flex flex-col gap-16 bg-dark py-8 items-center">
-            <li className="text-light list-none">
-              <a href="#home">home</a>
-            </li>
-            <li className="text-light list-none">
-              <a href="#about">about</a>
-            </li>
-            <li className="text-light list-none">
-              <a href="#contact">contacto</a>
-            </li>
-            <li className="text-light list-none">
-              <a href="#">asdasd</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div className="fixed top-[15vh] right-[7vw]">
-        <hr className=" h-[75svh] w-0 border-l-[1px] mr-7" />
-      </div> */}
       <Home />
       <About />
       <Contact />
