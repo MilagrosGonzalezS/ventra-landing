@@ -38,11 +38,12 @@ function Main() {
       </nav>
       <div className="content">
         <img
-          className=" w-4 fixed right-[7vw] translate-x-2/4 z-20 top-8"
+          className=" w-4 fixed right-[7vw] translate-x-2/4 z-20 top-[14vh]"
           src={arrows}
           alt="flechas de colores"
         />
       </div>
+
       <Home />
       <About />
       <Contact />
