@@ -4,12 +4,6 @@ import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import arrows from "../assets/imgs/recurso-colores.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHouse,
-  faUsers,
-  faPaperPlane,
-} from "@fortawesome/free-solid-svg-icons";
 
 function Main() {
   return (
@@ -26,13 +20,13 @@ function Main() {
             <a href="#about" className="home-icon">
               <FontAwesomeIcon icon={faUsers} />
             </a>
-             <p className="home-text">Nosotros</p> 
+            <p className="home-text">Nosotros</p>
           </li>
           <li className="flex flex-col items-center justify-center text-light list-none tracking-wider font-extralight text-2xl">
             <a href="#contact" className="home-icon">
               <FontAwesomeIcon icon={faPaperPlane} />
             </a>
-             <p className="home-text">Contacto</p> 
+            <p className="home-text">Contacto</p>
           </li>
         </ul>
       </nav>
