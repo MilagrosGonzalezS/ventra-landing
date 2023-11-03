@@ -1,5 +1,5 @@
 // import React from 'react'
-import qr from "/src/assets/imgs/qrqr.png";
+import qr from "/src/assets/imgs/qr!.png";
 import logo from "/src/assets/imgs/logo-blanco.png";
 
 function Home() {
