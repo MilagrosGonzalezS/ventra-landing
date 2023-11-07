@@ -44,10 +44,13 @@ function Main() {
         />
       </div>
 
-      <Home />
-      <About />
-      <Contact />
-      <Footer />
+      <main className="min-h-screen flex flex-col justify-center items-center px-[300px]">
+        <Home />
+        <About />
+        <Contact />
+        <Footer />
+      </main>
+
     </>
   );
 }

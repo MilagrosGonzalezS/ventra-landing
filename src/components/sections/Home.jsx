@@ -6,7 +6,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="min-h-[90vh] mt-[10vh] flex justify-center items-center  gap-4"
+      className="min-h-screen flex justify-center items-center min-w-screen"
     >
       <div>
         <h2 className="font-accent text-6xl mb-10">Descubre</h2>

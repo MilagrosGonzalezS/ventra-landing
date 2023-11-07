@@ -4,10 +4,10 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen flex flex-col justify-center items-center gap-x-16 gap-y-8"
+      className="min-h-screen flex flex-col justify-center items-center min-w-screen"
     >
-      <h2 className="text-2xl">Contacto</h2>
-      <form className="w-2/4">
+      <h2 className="text-2xl font-accent">Contacto</h2>
+      <form>
         <label className="text-xs font-semibold">NOMBRE</label>
         <input
           id="name"

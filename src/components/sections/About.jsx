@@ -11,13 +11,11 @@ function About() {
   return (
     <section
       id="about"
-      className="min-h-screen mt-[10vh] flex flex-col justify-center gap-x-16 items-center"
+      className="min-h-screen flex flex-col justify-center items-center min-w-screen"
     >
-      <h2 className="text-2xl pt-8"> Nosotros</h2>
-
-      <article className="w-4/6 flex  items-center gap-20">
+      <article className="flex  items-center gap-20">
         <img className="w-1/3" src={phone} alt="dibujo 3D de un telefono" />
-        <p className="">
+        <p className="text-sm">
           Presentamos <span className="text-pink">Ventra</span>, una aplicación
           que transformará la manera en que planificás y disfrutás tus eventos.
           Una herramienta para la creación de experiencias únicas, ya sea para
@@ -33,7 +31,7 @@ function About() {
 
       <div className="flex gap-6 justify-center mt-5">
         <div class="cardBlur w-[250px] flex flex-col items-center h-[250px] p-3 rounded-3xl justify-center">
-          <FontAwesomeIcon icon={faHeart} className="text-[50px]" />
+          <FontAwesomeIcon icon={faHeart} className="text-[40px] mb-4" />
           <h2 className="text-lg text-center font-accent mt-1 text-green font-semibold">
             MISIÓN
           </h2>
@@ -43,7 +41,7 @@ function About() {
           </p>
         </div>
         <div class="cardBlur w-[250px] flex flex-col items-center h-[250px] p-3 rounded-3xl justify-center">
-          <FontAwesomeIcon icon={faBinoculars} className="text-[50px]" />
+          <FontAwesomeIcon icon={faBinoculars} className="text-[40px] mb-4" />
           <h2 className="text-lg text-center font-accent mt-1 text-orange font-semibold">
             VISIÓN
           </h2>
@@ -53,7 +51,7 @@ function About() {
           </p>
         </div>
         <div class="cardBlur w-[250px] flex flex-col items-center h-[250px] p-3 rounded-3xl justify-center">
-          <FontAwesomeIcon icon={faGem} className="text-[50px]" />
+          <FontAwesomeIcon icon={faGem} className="text-[40px] mb-4" />
           <h2 className="text-lg text-center font-accent mt-1 text-pink font-semibold">
             VALOR
           </h2>
