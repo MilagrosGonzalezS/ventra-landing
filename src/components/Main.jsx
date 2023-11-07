@@ -15,7 +15,7 @@ function Main() {
   return (
     <>
       <nav className="fixed">
-        <ul className="nav absolute top-[23vh] left-[7vw] z-10 flex flex-col gap-10 py-8 items-center -translate-x-2/4 bg-opacity rounded-2xl p-4 mt-4">
+        <ul className="nav absolute top-[25vh] left-[7vw] z-10 flex flex-col gap-10 py-8 items-center -translate-x-2/4 bg-opacity rounded-2xl p-4 mt-4">
           <li className="flex flex-col items-center justify-center text-light list-none tracking-wider font-extralight text-2xl relative">
             <a href="#home" className="home-icon">
               <FontAwesomeIcon icon={faHouse} />
@@ -50,7 +50,6 @@ function Main() {
         <Contact />
         <Footer />
       </main>
-
     </>
   );
 }
