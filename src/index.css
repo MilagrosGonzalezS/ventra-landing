@@ -92,3 +92,13 @@ li:hover,
   position: absolute;
   left: 50px;
 }
+
+.cardBlur {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0.03) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+
+  backdrop-filter: blur(25px);
+}

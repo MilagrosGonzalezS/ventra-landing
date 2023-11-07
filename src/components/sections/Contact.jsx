@@ -4,9 +4,26 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-[90vh] mt-[10vh] flex justify-center items-center"
+      className="min-h-screen flex flex-col justify-center items-center gap-x-16 gap-y-8"
     >
-      Contact
+      <h2 className="text-2xl">Contacto</h2>
+      <form className="w-2/4">
+        <label className="text-xs font-semibold">NOMBRE</label>
+        <input
+          id="name"
+          name=""
+          className="bg-transparent p-2 border-b-2 border-b-green w-full font-semibold mb-6"
+        />
+        <label className="text-xs font-semibold">EMAIL</label>
+        <input className="bg-transparent p-2 border-b-2 border-b-green w-full font-semibold mb-6" />
+        <label className="text-xs font-semibold">MENSAJE</label>
+        <textarea className="bg-transparent p-2 border-b-2 border-b-green w-full font-semibold mb-6" />
+        <input
+          className="transition block mx-auto mt-4 bg-pink rounded-md text-white py-2 px-10 text-xs cursor-pointer"
+          type="submit"
+          value="CONTACTANOS"
+        />
+      </form>
     </section>
   );
 }
